@@ -2,6 +2,7 @@ from rest_framework import serializers
 
 from skills.models import SkillModel, ReviewModel, DayModel
 
+
 class SkillModel_serializer(serializers.ModelSerializer):
     class Meta:
         model = SkillModel
