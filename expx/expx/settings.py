@@ -75,10 +75,16 @@ WSGI_APPLICATION = 'expx.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'URL': 'postgresql://postgres:wKXb9uY2x4MWntxEQfus@containers-us-west-80.railway.app:7971/railway',
+        'NAME': 'railway',
+        'USER': 'containers-us-west-80.railway.app',
+        'PASSWORD': 'wKXb9uY2x4MWntxEQfus',
+        'HOST': 'containers-us-west-80.railway.app',
+        'PORT': 7971,
     }
 }
 
