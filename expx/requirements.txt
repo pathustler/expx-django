@@ -2,6 +2,7 @@ asgiref==3.7.2
 Django==4.2.2
 djangorestframework==3.14.0
 python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python==3.10.9
 regex @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_978efa21-43f5-4f43-9f25-acd8393817ddce2xcjaf/croots/recipe/regex_1658257186496/work
 six @ file:///tmp/build/80754af9/six_1644875935023/work
 sqlparse==0.4.4
