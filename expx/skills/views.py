@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 from rest_framework import viewsets
 from skills.models import SkillModel, ReviewModel, DayModel
 from skills.serializers import SkillModel_serializer, ReviewModel_serializer, DayModel_serializer
@@ -16,3 +17,4 @@ class ReviewModel_ViewSet(viewsets.ModelViewSet):
 class DayModel_ViewSet(viewsets.ModelViewSet):
     queryset = DayModel.objects.all()
     serializer_class = DayModel_serializer
+    
